@@ -1113,14 +1113,10 @@ I'm Ranjithkumar J, an MCA student with a BCA background and a strong interest i
         <p class="sub">My Professional Certificates</p>
 
         <div class="grid certs">
-
-    <!-- Certificate 1 -->
-    <div class="glass cert">
-
-    <iframe
-        src="certificates/certificate1.jpg.pdf"
-        class="cert-img">
-    </iframe>
+          <!-- Certificate 1 -->
+<div class="glass cert">
+    <img src="certificates/certificate1.jpg_page-0001.jpg"
+         class="cert-img">
 
     <h3>Oracle Cloud Infrastructure Architecture</h3>
 
@@ -1128,15 +1124,12 @@ I'm Ranjithkumar J, an MCA student with a BCA background and a strong interest i
        target="_blank">
        ↗️ View Certificate
     </a>
-
 </div>
-    <!-- Certificate 2 -->
-    <div class="glass cert">
 
-    <iframe
-        src="certificates/certificate2.jpg.pdf"
-        class="cert-img">
-    </iframe>
+<!-- Certificate 2 -->
+<div class="glass cert">
+    <img src="certificates/certificate2.jpg_page-0001.jpg"
+         class="cert-img">
 
     <h3>Oracle Certified Foundations Associate</h3>
 
@@ -1144,24 +1137,22 @@ I'm Ranjithkumar J, an MCA student with a BCA background and a strong interest i
        target="_blank">
        ↗️ View Certificate
     </a>
-
 </div>
 
+  <!-- Certificate 3 -->
+<div class="glass cert">
 
-    <!-- Certificate 3 -->
-    <div class="glass cert">
-
-    <iframe
-        src="certificates/certificate3.jpg.pdf"
-        class="cert-img">
-    </iframe>
+    <img src="certificates/certificate3.jpg_compressed.pdf"
+         class="cert-img"
+         alt="Certificate 3">
 
     <h3>AI in IT Industry & Software Development Life Cycle</h3>
 
-    <a href="certificates/certificate3.jpg.pdf"
+    <a href="certificates/certificate3.jpg_compressed.pdf"
        target="_blank">
        ↗️ View Certificate
     </a>
+
 </div>
         </div>
     </div>
@@ -1361,6 +1352,34 @@ window.addEventListener("scroll", () => {
     border: none;
     border-radius: 10px;
     background: white;
+}
+  .cert-img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: #fff;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.cert {
+    padding: 25px;
+    text-align: center;
+}
+
+.cert h3 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.cert a {
+    display: inline-block;
+    padding: 15px 25px;
+    background: linear-gradient(90deg, #7928ca, #ff00cc);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
 }
 </script>
 </body>
